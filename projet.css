@@ -1,0 +1,98 @@
+@import url('https://fonts.google.com/specimen/Redressedhttps://fonts.google.com/specimen/Redressed?query=redress&noto.query=redressed');
+.redressed{
+    font-family: 'redressed', cursive;
+}
+.merriweather {
+    font-family: 'Merriweather' , serif;
+}
+
+body , .available , .card{
+    background-color: black;
+}
+.wp-custom-header{
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 0px;
+}
+.site-description {
+    position: relative;
+    margin-left: 100px;
+}
+
+
+.dd-navbar {
+    background : linear-gradient(rgba(0,0,0,0.5));
+    font-family: 'Merriweather', serif;
+    z-index: 99; 
+    margin-top: 315px;
+
+}
+
+
+.dd-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+
+}
+.dd-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal) ;
+}
+
+.btn-order {
+    color:var(--bs-teal);
+    border-color:var(--bs-teal);
+    transition: 0.5s;
+}
+.btn-order:hover ,
+.btn-order:active{
+    color : #fff;
+    background-color:var(--bs-teal) ;
+
+}
+.banner , .order-form {
+    background: center center fixed no-repeat ;
+    background-image: url('image512.jpg');
+    background-size: cover;
+    height: 600px;
+
+}
+.order-form{
+    height: 500px ;
+}
+img {
+    border-radius: 10px;
+}
+.banner .banner-desc {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+h2{
+    font-weight: bold;
+
+}
+.dd-menu {
+    background:linear-gradient(rgba(0, 0, 0,0.5)), url('image10.jpg'), center center fixed no-repeat ;
+    background-size: cover;
+    height: 1350px;
+}
+
+.card-body{
+    font-size: large;
+}
+
+
+h3{
+    color: peru;
+    font-style: oblique;
+    padding-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
