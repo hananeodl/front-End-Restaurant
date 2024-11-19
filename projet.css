@@ -57,7 +57,7 @@ body , .available , .card{
 }
 .banner , .order-form {
     background: center center fixed no-repeat ;
-    background-image: url('image512.jpg');
+    background-image: url('assets/image512.jpg');
     background-size: cover;
     height: 600px;
 
@@ -78,7 +78,7 @@ h2{
 
 }
 .dd-menu {
-    background:linear-gradient(rgba(0, 0, 0,0.5)), url('image10.jpg'), center center fixed no-repeat ;
+    background:linear-gradient(rgba(0, 0, 0,0.5)), url('assets/image10.jpg'), center center fixed no-repeat ;
     background-size: cover;
     height: 1350px;
 }
